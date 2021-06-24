@@ -79,15 +79,14 @@ export default class App extends React.Component {
         super(props);
         this.state = {
             data : [
-                {label: "I'm just trying learn this shit", important: false, like:false, id: 1},
-                {label: "This is twitter? lol no", important: false, like:false, id: 2},
-                {label: "JOJO reference", important: false, like:false, id: 3},
-                {label: "Hohoho its cristmas t7ime", important: false, like:false, id: 4}
+                {label: "Start learning React", important: false, like:false, id: 1},
+                {label: "It's will be fun", important: false, like:false, id: 2},
+                {label: "I hope", important: false, like:false, id: 3}
             ],
             search: '',
             filter: 'all'
         };
-        this.maxId = 5;
+        this.maxId = 4;
     }
 
     searchPosts = (items, search) => {
